@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Sparkles, ArrowRight, ChevronLeft, ChevronRight, Image as ImageIcon } from 'lucide-react';
 
 interface EvidenceSlide {
@@ -51,7 +51,8 @@ const EvidenceSlider: React.FC<{ slides: EvidenceSlide[] }> = ({ slides }) => {
           key={index}
           className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
         >
-          <img src={slide.image} className="w-full h-full object-cover filter saturate-[1.1] contrast-[1.05]" alt="" />
+          {/* 절대경로 보정을 위해 . 추가 */}
+          <img src={slide.image.startsWith('./') ? slide.image : `.${slide.image}`} className="w-full h-full object-cover filter saturate-[1.1] contrast-[1.05]" alt="" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent flex flex-col justify-end p-8">
             <p className={`text-white/90 text-sm md:text-base font-medium leading-relaxed transition-all duration-700 ${index === currentIndex ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}>
               {slide.text}
@@ -77,7 +78,7 @@ const Story: React.FC = () => {
   const [data, setData] = useState<StoryData | null>(null);
 
   useEffect(() => {
-    fetch('/data/story.json')
+    fetch('./data/story.json')
       .then(res => res.json())
       .then(setData)
       .catch(err => console.error("Story data load failed:", err));
@@ -110,7 +111,7 @@ const Story: React.FC = () => {
       <section className="relative h-[92vh] flex items-end overflow-hidden pb-24">
         <div className="absolute inset-0 z-0">
           <img 
-            src={data.hero.backgroundImage} 
+            src={`./${data.hero.backgroundImage.replace(/^\//, '')}`} 
             className="w-full h-full object-cover opacity-50 scale-105" 
             alt="Terrace 527" 
           />

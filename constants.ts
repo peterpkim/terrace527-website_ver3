@@ -1,3 +1,4 @@
+
 import { Room, Activity, Review } from './types';
 
 export const ROOMS: Room[] = [
@@ -11,7 +12,7 @@ export const ROOMS: Room[] = [
     priceRange: '180,000 ~ 320,000',
     maxPeople: 2,
     features: ['신축', '프라이빗', '개별화장실', '개별바베큐'],
-    imageUrl: '/IMAGE/Data_Rooms_01.webp'
+    imageUrl: './IMAGE/Data_Rooms_01.webp'
   },
   {
     id: 'g2',
@@ -23,7 +24,7 @@ export const ROOMS: Room[] = [
     priceRange: '180,000 ~ 320,000',
     maxPeople: 2,
     features: ['신축', '숲전망', '감성인테리어'],
-    imageUrl: '/IMAGE/Data_Rooms_02.webp'
+    imageUrl: './IMAGE/Data_Rooms_02.webp'
   },
   {
     id: 'p1',
@@ -33,7 +34,7 @@ export const ROOMS: Room[] = [
     priceRange: '220,000 ~ 450,000',
     maxPeople: 4,
     features: ['넓은거실', '개별테라스', '풀키친'],
-    imageUrl: '/IMAGE/Data_Rooms_03.webp'
+    imageUrl: './IMAGE/Data_Rooms_03.webp'
   }
 ];
 
@@ -43,21 +44,21 @@ export const ACTIVITIES: Activity[] = [
     title: '산정호수 아침 산책',
     category: 'outdoor',
     description: '물안개 피는 호수길을 따라 걷는 고요한 힐링 타임.',
-    imageUrl: '/IMAGE/Data_Acts_01.webp'
+    imageUrl: './IMAGE/Data_Acts_01.webp'
   },
   {
     id: 'a2',
     title: '불멍 & 마시멜로 구이',
     category: 'outdoor',
     description: '타오르는 장작불 소리와 함께 즐기는 감성적인 밤.',
-    imageUrl: '/IMAGE/Data_Acts_02.webp'
+    imageUrl: './IMAGE/Data_Acts_02.webp'
   },
   {
     id: 'a3',
     title: '와인 & 치즈 보드게임',
     category: 'indoor',
     description: '추운 겨울날, 따뜻한 실내에서 즐기는 소소한 즐거움.',
-    imageUrl: '/IMAGE/Data_Acts_03.webp'
+    imageUrl: './IMAGE/Data_Acts_03.webp'
   }
 ];
 
