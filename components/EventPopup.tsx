@@ -4,7 +4,7 @@ import { useLocation, Link } from 'react-router';
 
 const POPUP_CONFIG = {
   isActive: true,
-  imageUrl: "IMAGE/Popup_Event.webp",
+  imageUrl: "/IMAGE/Popup_Event.webp",
   linkUrl: "/booking",
   title: "Special Winter Event",
   subTitle: "지금 예약하고 온수 스파 무료 혜택을 받으세요.",

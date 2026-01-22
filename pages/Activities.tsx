@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ACTIVITIES } from '../constants';
 import { Map, Coffee, Gamepad2, Stars } from 'lucide-react';
@@ -81,7 +80,7 @@ const Activities: React.FC = () => {
                </div>
             </div>
             <div className="absolute top-0 right-0 w-1/3 h-full hidden lg:block">
-              <img src="IMAGE/Activities_Winter.webp" className="w-full h-full object-cover opacity-80" alt="Winter theme" />
+              <img src="/IMAGE/Activities_Winter.webp" className="w-full h-full object-cover opacity-80" alt="Winter theme" />
             </div>
           </div>
         </section>

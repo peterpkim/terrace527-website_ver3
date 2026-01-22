@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Flame, UtensilsCrossed, Coffee, Car, Wifi, ShieldCheck } from 'lucide-react';
 
@@ -65,7 +64,7 @@ const Facilities: React.FC = () => {
         </div>
 
         <section className="mt-32 relative rounded-3xl overflow-hidden h-96 flex items-center justify-center text-center px-4">
-           <img src="IMAGE/Facilities_Night.webp" className="absolute inset-0 w-full h-full object-cover" alt="Night view" />
+           <img src="/IMAGE/Facilities_Night.webp" className="absolute inset-0 w-full h-full object-cover" alt="Night view" />
            <div className="absolute inset-0 bg-black/50" />
            <div className="relative z-10 max-w-2xl text-white">
              <h2 className="text-3xl font-bold serif mb-6">"가장 깨끗한 쉼표"</h2>

@@ -8,11 +8,11 @@ const ROOM_DATA = {
   badge: "1 Exclusive Villa",
   description: "오직 한 개 동으로만 운영되는 테라스 527의 익스클루시브 빌라입니다. 최근 리뉴얼을 통해 미니멀한 무드를 극대화한 특별한 공간을 경험하십시오.",
   images: [
-    "IMAGE/Room_SS_01.webp",
-    "IMAGE/Room_SS_02.webp",
-    "IMAGE/Room_SS_03.webp",
-    "IMAGE/Room_SS_04.webp",
-    "IMAGE/Room_SS_05.webp"
+    "/IMAGE/Room_SS_01.webp",
+    "/IMAGE/Room_SS_02.webp",
+    "/IMAGE/Room_SS_03.webp",
+    "/IMAGE/Room_SS_04.webp",
+    "/IMAGE/Room_SS_05.webp"
   ],
   specs: {
     type: "Exclusive Villa",

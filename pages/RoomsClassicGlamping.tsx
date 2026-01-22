@@ -8,11 +8,11 @@ const ROOM_DATA = {
   badge: "Total 5 Rooms (Large 2 / Medium 3)",
   description: "가장 사랑받아 온 클래식 라인은 동일한 감성의 인테리어와 더불어 공간의 크기에 따라 대형과 중형으로 세분화됩니다.",
   images: [
-    "IMAGE/Room_CG_01.webp",
-    "IMAGE/Room_CG_02.webp",
-    "IMAGE/Room_CG_03.webp",
-    "IMAGE/Room_CG_04.webp",
-    "IMAGE/Room_CG_05.webp"
+    "/IMAGE/Room_CG_01.webp",
+    "/IMAGE/Room_CG_02.webp",
+    "/IMAGE/Room_CG_03.webp",
+    "/IMAGE/Room_CG_04.webp",
+    "/IMAGE/Room_CG_05.webp"
   ],
   specs: {
     standard: "2 Persons",

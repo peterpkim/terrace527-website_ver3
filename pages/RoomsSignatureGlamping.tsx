@@ -8,11 +8,11 @@ const ROOM_DATA = {
   badge: "Total 4 Premium Rooms",
   description: "테라스 527의 자부심인 시그니처 라인은 총 4개 동의 신축 프리미엄 객실입니다. 독보적인 공간감과 최신 사양의 시설로 하이엔드 글램핑을 정의합니다.",
   images: [
-    "IMAGE/Room_SG_01.webp",
-    "IMAGE/Room_SG_02.webp",
-    "IMAGE/Room_SG_03.webp",
-    "IMAGE/Room_SG_04.webp",
-    "IMAGE/Room_SG_05.webp"
+    "/IMAGE/Room_SG_01.webp",
+    "/IMAGE/Room_SG_02.webp",
+    "/IMAGE/Room_SG_03.webp",
+    "/IMAGE/Room_SG_04.webp",
+    "/IMAGE/Room_SG_05.webp"
   ],
   specs: {
     standard: "2 Persons",

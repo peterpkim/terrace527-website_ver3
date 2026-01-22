@@ -8,11 +8,11 @@ const ROOM_DATA = {
   badge: "Total 4 Rooms (Family Friendly)",
   description: "가족 단위 여행객을 위해 정성을 다해 관리해 온 총 4개 객실의 펜션 타입입니다. 넓은 평면 구성으로 집과 같은 편안함을 누리실 수 있습니다.",
   images: [
-    "IMAGE/Room_CS_01.webp",
-    "IMAGE/Room_CS_02.webp",
-    "IMAGE/Room_CS_03.webp",
-    "IMAGE/Room_CS_04.webp",
-    "IMAGE/Room_CS_05.webp"
+    "/IMAGE/Room_CS_01.webp",
+    "/IMAGE/Room_CS_02.webp",
+    "/IMAGE/Room_CS_03.webp",
+    "/IMAGE/Room_CS_04.webp",
+    "/IMAGE/Room_CS_05.webp"
   ],
   specs: {
     standard: "2 Persons",
