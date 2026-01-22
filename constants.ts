@@ -1,4 +1,3 @@
-
 import { Room, Activity, Review } from './types';
 
 export const ROOMS: Room[] = [
